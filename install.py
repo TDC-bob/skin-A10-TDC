@@ -2,5 +2,8 @@
 __author__ = "bob"
 
 special = {
-    "append": "SAVED_GAMES/Config/autoexec.cfg"
+    "SAVED_GAMES/Config/autoexec.cfg": {
+        "method": "append",
+        "can_create_file": True
+    }
 }
